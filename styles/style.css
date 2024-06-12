@@ -151,6 +151,158 @@ body{
        color:  rgba(255, 255, 255, 0.78);
        font-size: 20px;
     }
+    .section1__title {
+        color: rgba(255, 255, 255, 0.9);
+        font-family: Poppins;
+        font-size: 25px;
+        font-weight: 500;
+        line-height: 130%;
+        letter-spacing: 0%;
+        text-align: center;
+        padding-top: 5rem;
+    }
+    main section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section1__paragraph {
+        color: rgba(255, 255, 255, 0.55);
+        font-family: Poppins;
+        font-size: 9px;
+        padding-top: 0.5rem;
+        width:220px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: center;
+        padding-left: 1px;
+    }
+    .section1__cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 30%;
+        padding-top: 3rem;
+    }
+    .section1__icon{
+        width: 20px;
+    }
+    .section1__card {
+        display: flex;
+        height: 150px;
+        
+    }
+    .section1__card{
+        display: flex;
+
+    }
+    .section1__icon1{
+        height: 25px;
+        width: 18px;
+    }
+    .section1__icon2 {
+        height: 22px;
+        width: 25px;
+    }
+    .section1__icon3 {
+        height: 25px;
+        width: 25px;
+    }
+    .section1__icon4 {
+        height: 25px;
+        width: 25px;
+    }
+    .section1__icon5 {
+        height: 25px;
+        width: 25px;
+    }
+    .section1__icon6 {
+        height: 25px;
+        width: 25px;
+    }
+    .h1{
+        color: rgba(255, 255, 255, 0.78);
+        font-family: Poppins;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 36px;
+        letter-spacing: 0%;
+        text-align: center;
+        display: flex;
+        align-items: start;
+        /* FIGMA */
+        position: relative;
+        bottom: 10px;
+        left: 15px;
+    }
+    .p {
+        color: rgba(255, 165, 55, 0.55);
+        font-family: Poppins;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0%;
+        text-align: left;
+        position: relative;
+        bottom: 27px;
+        left: 15px;
+    }
+    .figma {
+        color: rgba(255, 255, 255, 0.78);
+        font-family: Poppins;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 36px;
+        letter-spacing: 0%;
+        text-align: center;
+        display: flex;
+        align-items: start;
+        /* FIGMA */
+        position: relative;
+        bottom: 10px;
+        left: 23px;
+    }
+
+    .free {
+        color: rgba(255, 165, 55, 0.55);
+        font-family: Poppins;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0%;
+        text-align: left;
+        position: relative;
+        bottom: 27px;
+        left: 23px;
+    }
+    .section1__paragraph1{
+        color: rgba(255, 255, 255, 0.55);
+        font-family: Poppins;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 15px;
+        letter-spacing: 0%;
+        text-align: left;
+        width: 250px;
+        position: relative;
+        left: -26px;
+        bottom: 30px;
+    }
+    section i{
+        position: relative;
+        top: 80px;
+        right: 275px;
+        font-size: 18px;
+    }
+    .icons__box{
+        display: flex;
+        gap: 10px;
+    }
+    section a{
+
+    }
 }
 
 
@@ -214,5 +366,42 @@ body{
     }
     .btn2 {
         font-size: 12px;
+    }
+    .section1__title {
+        color: rgba(255, 255, 255, 0.9);
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 130%;
+        letter-spacing: 0%;
+        text-align: center;
+        padding-top: 5rem;
+    }
+
+    main section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section1__paragraph {
+        color: rgba(255, 255, 255, 0.55);
+        font-family: Poppins;
+        font-size: 8px;
+        padding-top: 0.5rem;
+        width: 210px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: center;
+        padding-left: 1px;
+    }
+    .section1__cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 55%;
+        padding-top: 3rem;
     }
 }
