@@ -441,7 +441,7 @@ body {
     .icons3__box {}
 
 
-}
+
 
 .icons3__box {
     position: relative;
@@ -577,7 +577,46 @@ a{
     display: flex;
     justify-content: center;
 }
+.section5__title{
+    color: rgba(255, 255, 255, 0.9);
+    font-family: Poppins;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-top: 6rem;
+}
+.section5__paragraph{
+color: rgba(255, 255, 255, 0.55);
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 200px;
+    margin: auto;
+}
+.section5{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.input__text1{
+    border-radius: 8px;
+    margin-top: 3rem;
+    margin-left: 0;
+    width: 300px;
+    margin: auto;
+    margin-top: 2rem;
 
+}
+
+.section5 div{
+    
+}
+}
 
 
 
