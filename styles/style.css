@@ -428,7 +428,7 @@ body{
     .section3__title {
         color: rgba(255, 255, 255, 0.9);
         font-family: Poppins;
-        font-size: 20px;
+        font-size: 25px;
         font-weight: 500;
         line-height: 130%;
         letter-spacing: 0%;
@@ -438,14 +438,14 @@ body{
     .section3__parargraph {
         color: rgba(255, 255, 255, 0.55);
         font-family: Poppins;
-        font-size: 10px;
+        font-size: 9px;
+        padding-top: 0.5rem;
+        width: 220px;
         font-weight: 500;
-        margin-top: 10px;
         line-height: 20px;
         letter-spacing: 0%;
-        width: 300px;
         text-align: center;
-        
+        padding-left: 1px;
     }
     .section3__content{
         display: flex;
