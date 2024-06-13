@@ -598,11 +598,7 @@ color: rgba(255, 255, 255, 0.55);
     width: 200px;
     margin: auto;
 }
-.section5{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
+
 .input__text1{
     border-radius: 8px;
     margin-top: 3rem;
@@ -613,8 +609,6 @@ color: rgba(255, 255, 255, 0.55);
 
 }
 .section5 div{
-    display: flex;
-    justify-content: center;
     margin: auto;
     flex-direction: column;
 }
