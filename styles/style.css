@@ -348,7 +348,7 @@ body {
         gap: 10px;
     }
 
-    .section1 a {
+    .section1 .aa {
         position: relative;
         right: 170px;
         top: 80px;
@@ -458,7 +458,6 @@ body {
 
 .section3 a {
     position: relative;
-    left: 110px;
     color: rgba(255, 255, 255, 0.55);
     font-family: Poppins;
     font-size: 10px;
@@ -553,6 +552,10 @@ body {
 .class {
     padding-left: 8px;
 }
+a{
+    text-decoration: none;
+    color: white;
+}
 .karoch {
     position: relative;
     left: 20px;
@@ -560,7 +563,20 @@ body {
     width: 100px;
 }
 
-
+.Explore{
+    position: relative;
+    right: 100px;
+}
+.section3__btn{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.fefe{
+    display: flex;
+    justify-content: center;
+}
 
 
 
