@@ -612,9 +612,17 @@ color: rgba(255, 255, 255, 0.55);
     margin-top: 2rem;
 
 }
-
 .section5 div{
-    
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+}
+.section5 button{
+    width: 100px;
+}
+.section5 {
+    padding-bottom: 3rem;
 }
 }
 
