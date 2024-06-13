@@ -190,12 +190,11 @@ body{
         padding-left: 1px;
     }
     .section1__cards{
+        max-width: 450px;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-left: 40%;
-        padding-top: 3rem;
+        margin-left: 50%;
+        margin-right: 10%;
     }
     .section1__icon{
         width: 20px;
@@ -397,10 +396,8 @@ body{
 
     .icons3__box {}
 
-    .ri-heart-fill {
-
+    
     }
-
     .icons3__box {
         position: relative;
         top: 80px;
@@ -423,8 +420,8 @@ body{
         letter-spacing: 0%;
         text-align: left;
         text-decoration: none;
-        
     }
+    
     .section3__title {
         color: rgba(255, 255, 255, 0.9);
         font-family: Poppins;
@@ -471,6 +468,41 @@ body{
         padding: 3px 8px;
         background-color:rgb(255, 110, 48);
             
+    }
+    .section4__img{
+        width: 200px;
+        transition: all 500ms ease;
+        padding-top: 2rem;
+        background: url(/src/images/circle.png)no-repeat;
+        background-size: 170px;
+        background-position-x:12px;
+        background-position-y: 100px;
+       
+    }
+    .section4__img:hover{
+        transform: scale(1.2);
+    }
+    .content__box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section4__paragraph{
+        color: rgba(255, 255, 255, 0.78);
+        font-family: poppins;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 1.5%;
+        text-align: center;
+        width: 200px;
+        padding-top: 1rem;
+    }
+    .karoch{
+        position: relative;
+        left: 20px;
+        bottom: 45px;
+        width: 100px;
     }
 }
 
