@@ -190,11 +190,13 @@ body{
         padding-left: 1px;
     }
     .section1__cards{
-        max-width: 450px;
+       
         display: flex;
         flex-direction: column;
-        margin-left: 50%;
-        margin-right: 10%;
+        justify-content: center;
+        align-items: center;
+        padding-left: 40%;
+        padding-top: 3rem;
     }
     .section1__icon{
         width: 20px;
@@ -211,6 +213,7 @@ body{
     .section1__icon1{
         height: 25px;
         width: 18px;
+        MARGIN-left: 2%;
     }
     .section1__icon2 {
         height: 22px;
@@ -504,7 +507,7 @@ body{
         bottom: 45px;
         width: 100px;
     }
-}
+
 
 
 
